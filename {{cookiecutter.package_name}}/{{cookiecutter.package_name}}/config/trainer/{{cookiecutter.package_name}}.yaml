@@ -1,0 +1,8 @@
+defaults:
+  - default #subclassing serotiny's trainer config
+  - override callbacks: {{cookiecutter.package_name}}
+
+_target_: pytorch_lightning.Trainer
+max_epochs:
+gpus:
+enable_checkpointing: True

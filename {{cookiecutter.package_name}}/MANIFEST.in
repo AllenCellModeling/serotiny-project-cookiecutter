@@ -1,0 +1,4 @@
+global-exclude *.pyc
+global-exclude __pycache__
+recursive-include {{cookiecutter.package_name}}/config *.yaml
+recursive-include {{cookiecutter.package_name}}/config/* *.yaml
