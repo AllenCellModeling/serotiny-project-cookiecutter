@@ -1,0 +1,14 @@
+# example manifest datamodule
+#_target_: serotiny.datamodules.ManifestDatamodule
+#
+#path:
+#batch_size:
+#num_workers:
+#loaders:
+#split_column:
+#columns:
+#collate:
+#pin_memory: True
+#shuffle:  True
+#drop_last:  False
+#multiprocessing_context:

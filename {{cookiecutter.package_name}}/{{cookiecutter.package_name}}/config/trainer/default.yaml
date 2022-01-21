@@ -1,0 +1,7 @@
+defaults:
+  - defaults/trainer/default #inherit serotiny's trainer config
+
+_target_: pytorch_lightning.Trainer
+max_epochs:
+gpus:
+enable_checkpointing: True
