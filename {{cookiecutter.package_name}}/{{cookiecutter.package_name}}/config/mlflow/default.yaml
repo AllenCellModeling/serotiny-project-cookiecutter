@@ -1,5 +1,5 @@
 defaults:
-  - defaults/mlflow/default #inherit serotiny's mlflow config
+  - /defaults/mlflow/default@_here_ #inherit serotiny's mlflow config
 
 #tracking_uri: 
 #experiment_name:
