@@ -1,6 +1,6 @@
 defaults:
   - _self_
-  - defaults/apply@_here_
+  - defaults/test@_here_
   - model: default
   - data: default
   - mlflow: default
