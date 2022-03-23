@@ -7,8 +7,3 @@
 #loaders:
 #split_column:
 #columns:
-#collate:
-#pin_memory: True
-#shuffle:  True
-#drop_last:  False
-#multiprocessing_context:
