@@ -5,6 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "{{cookiecutter.package_name}}"
 version = "0.0.a0"
+authors = []
 description = "{{cookiecutter.project_description}}"
 readme = "README.md"
 packages = [
