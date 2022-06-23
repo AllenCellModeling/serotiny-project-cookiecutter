@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "{{cookiecutter.package_name}}"
-version = "0.0.a0"
+version = "0.0.0"
 authors = []
 description = "{{cookiecutter.project_description}}"
 readme = "README.md"
@@ -31,7 +31,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-serotiny = "^0.0.0"
+serotiny = {version = "^0.0.1", allow-prereleases = true}
 
 [tool.poetry.dev-dependencies]
 
