@@ -30,16 +30,8 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-torch = ">=1.7.1"
-hydra-core = ">=1.2.0.dev2"
-mlflow = ">=1.23.1"
-omegaconf = "2.1.1"
-pytorch-lightning = ">=1.5.0"
-aicsimageio = "4.6.4"
-numpy = ">=1.18"
-pandas = ">=1.1"
-serotiny = "^0.0.a0"
+python = "^3.8"
+serotiny = "^0.0.0"
 
 [tool.poetry.dev-dependencies]
 
