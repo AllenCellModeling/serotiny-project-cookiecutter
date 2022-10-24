@@ -2,7 +2,7 @@
 # https://lightning-bolts.readthedocs.io/en/latest/datamodules/vision.html#mnist
 # NOTE: to use this config yaml, you'll have to install the lightning-bolts package
 
-_target_: pl_bolts.datamodules.MNISTDatamodule
+_target_: pl_bolts.datamodules.MNISTDataModule
 
 # leave uncommented to download MNIST
 # data_dir:
